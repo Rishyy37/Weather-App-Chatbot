@@ -202,6 +202,6 @@ async function runExamples() {
 //   await respondToUserQuery(prompt3);
 }
 
-// runExamples();
+runExamples();
 
 module.exports = { respondToUserQuery };
