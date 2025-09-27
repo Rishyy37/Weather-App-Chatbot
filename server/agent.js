@@ -191,15 +191,15 @@ async function respondToUserQuery(userQuery) {
 async function runExamples() {
   console.log("--- Running Example 1: Complex English Query ---");
   const prompt1 = "What kind of jacket should I wear for a night out in San Francisco?";
-//   await respondToUserQuery(prompt1);
+  await respondToUserQuery(prompt1);
   
   console.log("\n\n--- Running Example 2: Japanese Language Query (NOW WORKING!) ---");
   const prompt2 = "今日の東京の天気はどうですか？"; // "How is the weather in Tokyo today?"
-//   await respondToUserQuery(prompt2);
+  await respondToUserQuery(prompt2);
 
   console.log("\n\n--- Running Example 3: No Location Query ---");
   const prompt3 = "Is it cold outside?";
-//   await respondToUserQuery(prompt3);
+  await respondToUserQuery(prompt3);
 }
 
 runExamples();
